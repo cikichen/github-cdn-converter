@@ -1,0 +1,90 @@
+/* Add your custom styles here */
+.shadow-lg {
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+}
+.leading-normal {
+    line-height: 1.5;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / 1);
+}
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+.appearance-none {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.w-full {
+    width: 100%;
+}
+.block {
+    display: block;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-gradient-border {
+    position: relative;
+}
+
+.input-gradient-border input {
+    border: 2px solid transparent;
+    background-origin: border-box;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: padding-box, border-box;
+    background-clip: padding-box, border-box;
+}
+
+.input-gradient-border input:focus {
+    outline: none;
+    border: 2px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.space-y-1 > :not(:last-child) {
+    margin-bottom: 0.25rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-disc {
+    list-style-type: disc;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
