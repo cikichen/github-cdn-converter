@@ -20,6 +20,13 @@ This project provides a web application to convert GitHub raw file links to vari
 
 ## Getting Started
 
+## Deploy to Vercel
+
+You can easily deploy this application to Vercel by clicking the button below:
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/cikichen/github-cdn-converter)
+
+
 ### Prerequisites
 
 - Node.js
@@ -30,7 +37,7 @@ This project provides a web application to convert GitHub raw file links to vari
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/github-cdn-converter.git
+    git clone https://github.com/cikichen/github-cdn-converter.git
     cd github-cdn-converter
     ```
 
@@ -69,7 +76,7 @@ Open your browser and go to `http://localhost:3000` to see the app in action.
 
 ## Screenshots
 
-![Screenshot](screenshot.png)
+![Screenshot](./png/screenshot.png)
 
 ## Contributing
 
